@@ -1,0 +1,62 @@
+/* start Resposive */
+@media (max-width:767px) {
+    .main{
+        flex-direction: column;
+        /* text-align: center; */
+    }
+}
+/* end Resposive */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:root{
+   --p-color:#3a1955; 
+}
+html {
+    scroll-behavior: smooth;
+}
+.main{
+    padding-top: 1em;
+}
+.head{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 6rem;
+    padding-top: 0.5em;
+    color: #ffff;
+    letter-spacing: 3px;
+
+}
+.title{
+    color: var(--p-color);
+    letter-spacing: 0.5rem;
+    line-height: 1.5;
+}
+.small-cont{
+    max-width: max-content;
+    margin-bottom: 1rem;
+}
+footer{
+    padding-top: 1.3rem;
+}
+/* my tri searh menu */
+#Test_search{
+    width: 100%;
+    padding: 11px;
+    border: 1px sold #ddd;
+}
+#Test-List{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+#Test-List li {
+    display: block;
+}
+#Test-List li:hover{
+    background-color: #eee;
+}

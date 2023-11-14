@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myReport</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/myReport.css">
+
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header class="head bg-info">
+        <div class=" text-center">
+            <h1>My Report</h1>
+            <h3 class="title">Simple Lab Report</h3>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start title -->
+    <div class="title container">
+
+    </div>
+    <!-- End title -->
+    <!-- Start main -->
+    <div class="main d-flex gap-3">
+        <div class="left-main col">
+            <div class="container">
+                <h5 class="heading">Please enter pateint Data:-</h5>
+                <div class="small-cont">
+                    <div class="container">
+
+                        <div class="form-floating shadow ">
+                            <input type="text" class="form-control" id="floatingName" placeholder="Enter Pateint Name">
+                            <label for="floatingName">Enter Pateint Name</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="small-cont">
+                    <div class="container">
+
+                        <div class="form-floating shadow">
+                            <input type="text" class="form-control" id="floatingName" placeholder="Enter Pateint Age">
+                            <label for="floatingName">Enter Pateint Age</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="small-cont">
+                    <div class="container">
+                        <div class="mb-3 shadow">
+                            <select class="form-select form-select-sm mb-3" aria-label=".form-select-sm example">
+                                <option selected="">Select Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="small-cont">
+                    <div class="container">
+                        <h5 class="test">Please select Tests</h5>
+                        <div class="newSearch">
+                            <div class="container">
+                                <input type="text" id="Test_search" placeholder="Search..." title="Search Test">
+                                <ul id="Test-List">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="right-main col">
+            <div class="container">
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- End main -->
+    <!-- Start footer -->
+    <footer>
+        <div class="text-center">
+            <p class="foot">Made by <span class="alaa">Alaa Abdou</span></p>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/myReport.js"></script>
+</body>
+
+</html>
